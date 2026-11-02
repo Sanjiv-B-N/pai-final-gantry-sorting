@@ -8,6 +8,8 @@ MuJoCo 上のガントリー（直交）ロボットが、6個のキューブ（
 - **動作（AI）**：エキスパートのデモから模倣学習（Behavior Cloning＋Action Chunking）した**ニューラルネットのポリシー**がロボットを制御
 - **閉ループ**：毎ピック前に再認識するため、作業中にキューブが動かされても対応
 
+デモ動画（等倍速）: https://youtu.be/-3nVhX7dr_U
+
 第5回講義の「収集 → 学習 → デプロイ → 評価」のパイプラインを、テレオペの代わりにスクリプトのエキスパートを教師として MuJoCo 上で実装しました。
 
 ## 実行方法
@@ -81,6 +83,8 @@ A gantry (Cartesian) robot in MuJoCo sorts six cubes (3 colors x 2) onto goal pa
 - **Perception (AI):** a learned pixel-wise segmentation model detects the cubes in a top-camera image
 - **Motion (AI):** a **neural-network policy** trained by imitation learning (behavior cloning + action chunking) from expert demos controls the robot
 - **Closed loop:** the scene is re-perceived before every pick, so the robot adapts when a cube is moved mid-task
+
+Demo video (1x speed): https://youtu.be/-3nVhX7dr_U
 
 It implements Lecture 5's collect → train → deploy → evaluate pipeline in MuJoCo, with a scripted expert as the teacher instead of teleoperation.
 
