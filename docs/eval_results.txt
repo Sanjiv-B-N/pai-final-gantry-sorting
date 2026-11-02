@@ -1,0 +1,7 @@
+perception: pixel acc 99.79%, detections 240/240, position err mean 0.47 cm, max 1.03 cm
+expert                                 cubes sorted 300/300 (100.0%), perfect layouts 50/50, timed-out picks 0
+expert + disturbance                   cubes sorted 300/300 (100.0%), perfect layouts 50/50, timed-out picks 0
+policy                                 cubes sorted 300/300 (100.0%), perfect layouts 50/50, timed-out picks 13
+policy + disturbance                   cubes sorted 300/300 (100.0%), perfect layouts 50/50, timed-out picks 15
+policy (temporal ens.)                 cubes sorted 183/300 (61.0%), perfect layouts 18/50, timed-out picks 218
+policy (temporal ens.) + disturbance   cubes sorted 177/300 (59.0%), perfect layouts 17/50, timed-out picks 225
