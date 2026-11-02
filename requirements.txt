@@ -1,0 +1,5 @@
+ImageIO==2.38.1
+imageio-ffmpeg==0.7.0
+mujoco==3.17.0
+numpy==2.5.4
+scikit-learn==1.9.1
